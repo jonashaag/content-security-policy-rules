@@ -4,8 +4,6 @@ Stop reverse-engineering CSP rules. content-security-policy-rules.org is a colle
 
 <ul>
 {% for page in site.pages %}
-  {% if page.extname == ".md" %}
     <li><a href="{{ page.url }}">{{ page.title | replace: "Content Security Policy", "" }}</a></li>
-  {% endif %}
 {% endfor %}
 </ul>
