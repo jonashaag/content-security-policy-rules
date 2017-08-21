@@ -1,5 +1,7 @@
 # Mixpanel Content Security Policy Rules
 
+Last update: Aug 21, 2017
+
 ## connect-src
 ```
 https://api.mixpanel.com/
