@@ -4,6 +4,8 @@ Stop reverse-engineering CSP rules. content-security-policy-rules.org is a colle
 
 <ul>
 {% for page in site.pages %}
-  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+  {% if page.resource %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
