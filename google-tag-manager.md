@@ -1,5 +1,7 @@
 # Google Tag Manager Content Security Policy Rules
 
+Last update: Aug 21, 2017
+
 All of [Google Analytics]({% link google-analytics.md %}), plus:
 
 ## script-src
