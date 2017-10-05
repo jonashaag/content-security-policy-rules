@@ -6,8 +6,18 @@ All of [Google Analytics]({% link google-analytics.md %}), plus:
 
 ## script-src
 ```
-'sha256-L87sFOtRtBfd6H1OdhaJ3yssvtqXvr6Jbur3YoUYBbk='
+'sha256-...'
 https://www.googletagmanager.com/
+```
+
+If you use ads:
+
+```
+https://googleads.g.doubleclick.net
+https://www.google.com/ads/user-list
+https://www.google.XYX/ads/user-list
+https://bid.g.doubleclick.net
+http://www.googleadservices.com
 ```
 
 ## frame-src
