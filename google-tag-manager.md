@@ -17,7 +17,7 @@ https://googleads.g.doubleclick.net
 https://www.google.com/ads/user-list
 https://www.google.XYX/ads/user-list
 https://bid.g.doubleclick.net
-http://www.googleadservices.com
+https://www.googleadservices.com
 ```
 
 ## frame-src
