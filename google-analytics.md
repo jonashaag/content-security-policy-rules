@@ -14,3 +14,9 @@ http://www.google-analytics.com/  <-- only for development
 https://www.google-analytics.com/
 http://www.google-analytics.com/  <-- only for development
 ```
+
+## connect-src
+```
+https://www.google-analytics.com/
+http://www.google-analytics.com/  <-- only for development
+```
