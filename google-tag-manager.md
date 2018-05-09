@@ -18,6 +18,7 @@ https://www.google.com/ads/user-list
 https://www.google.XYX/ads/user-list
 https://bid.g.doubleclick.net
 https://www.googleadservices.com
+https://tagmanager.google.com/  <-- for debugger
 ```
 
 ## frame-src
