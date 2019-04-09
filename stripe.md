@@ -1,6 +1,11 @@
 # Stripe Content Security Policy Rules
 
-Last update: Aug 21, 2017
+Last update: Apr 09, 2019
+
+## script-src
+```
+https://js.stripe.com
+```
 
 ## form-action
 ```
@@ -16,4 +21,5 @@ https://api.stripe.com
 ## frame-src
 ```
 https://js.stripe.com
+https://hooks.stripe.com
 ```
