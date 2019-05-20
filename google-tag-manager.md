@@ -24,6 +24,7 @@ https://tagmanager.google.com/  <-- for debugger
 ## frame-src
 ```
 https://www.googletagmanager.com/ns.html
+https://bid.g.doubleclick.net
 ```
 
 ## A note about Google Tag Manager Debug Mode
