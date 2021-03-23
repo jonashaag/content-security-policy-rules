@@ -6,6 +6,7 @@ Last update: Aug 21, 2017
 ```
 https://api.mixpanel.com/
 http://api.mixpanel.com/  <-- only for development
+https://api-js.mixpanel.com/
 ```
 
 ## img-src
