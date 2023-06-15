@@ -1,13 +1,13 @@
 # Bugsnag Content Security Policy Rules
 
-Last update: May 18, 2019
+Last update: Jun 15, 2023
 
 > Bugsnag provides error reporting libraries for software platforms
 
 ## connect-src
 ```
 https://sessions.bugsnag.com/
-http://notify.bugsnag.com/
+https://notify.bugsnag.com/
 ```
 
 ## script-src

@@ -1,11 +1,10 @@
 # Google Places API Content Security Policy Rules
 
-Last update: Aug 21, 2017
+Last update: Jun 15, 2023
 
 ## script-src
 ```
-https://maps.googleapis.com/maps/api/
-https://maps.googleapis.com/maps-api-v3/
+https://maps.googleapis.com
 ```
 
 ## img-src

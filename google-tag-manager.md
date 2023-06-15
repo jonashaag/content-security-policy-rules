@@ -1,30 +1,43 @@
 # Google Tag Manager Content Security Policy Rules
 
-Last update: Aug 21, 2017
+Last update: Jun 15, 2023
 
-All of [Google Analytics]({% link google-analytics.md %}), plus:
+Contains all of [Google Analytics]({% link google-analytics.md %}), plus:
 
 ## script-src
 ```
 'sha256-...'
-https://www.googletagmanager.com/
+https://*.googletagmanager.com
+https://*.g.doubleclick.net
+https://*.googleadservices.com
+https://*.google.com
+https://*.google.co.uk  <-- Each Google top-level domain (TLD) must be specified individually
 ```
 
-If you use ads:
-
+## img-src
 ```
-https://googleads.g.doubleclick.net
-https://www.google.com/ads/user-list
-https://www.google.XYX/ads/user-list
-https://bid.g.doubleclick.net
-https://www.googleadservices.com
-https://tagmanager.google.com/  <-- for debugger
+https://*.google-analytics.com
+https://*.analytics.google.com
+https://*.googletagmanager.com
+https://*.g.doubleclick.net
+https://*.google.com
+https://*.google.co.uk  <-- Each Google top-level domain (TLD) must be specified individually
 ```
 
 ## frame-src
 ```
-https://www.googletagmanager.com/ns.html
-https://bid.g.doubleclick.net
+https://*.googletagmanager.com
+https://*.g.doubleclick.net
+```
+
+## connect-src
+```
+https://*.google-analytics.com
+https://*.analytics.google.com
+https://*.googletagmanager.com
+https://*.g.doubleclick.net
+https://*.google.com
+https://*.google.co.uk  <-- Each Google top-level domain (TLD) must be specified individually
 ```
 
 ## A note about Google Tag Manager Debug Mode
